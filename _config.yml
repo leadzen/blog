@@ -1,4 +1,4 @@
 baseurl: /blog
 markdown: rdiscount
 pygments: true
-
+repository: leadzen/blog
