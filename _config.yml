@@ -1,1 +1,4 @@
-baseurl: /blog
+baseurl: /blog/
+markdown: rdiscount
+pygments: true
+
