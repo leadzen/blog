@@ -1,12 +1,11 @@
----
-layout: default
-title: 博客
----
+<html>
 
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul class="posts">
-  {% for post in site.posts %}
-   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<head>
+  <meta charset="utf8">
+  <title>Hello Pages</title>
+</head>
+
+<body>
+  <p>Welcome to Page!</p>
+</body>
+</html>
